@@ -6,6 +6,8 @@ This is a simple and ill-advised game written as a VSCode Extension. Why? Why no
 
 Amazing 8-bit ascii action in 2 colors!
 
+![Mr Smiley](photos/mrsmiley1.jpg)
+
 The point of the game is to collect as many coins as fast as possible and reach the goal while avoiding the enemies.
 
 ## Requirements
@@ -24,6 +26,6 @@ Resetting the game after a win or game over seems to have some issues. It might 
 
 ### 1.0.0
 
-Initial release.
+Initial release. There might or might not be more releases.
 
 **Enjoy!**
