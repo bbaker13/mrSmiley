@@ -496,7 +496,7 @@ function resetGame() {
         function() {
         _editor.edit(function(ed) {
             gameInit(ed);
-        }).then(gameRender);
+        });
     });
 }
 
