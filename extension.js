@@ -245,7 +245,7 @@ function handleInput(ed, doc) {
             keyPress('right');
         }
     } else {
-        if(_command[i]){
+        if(_command[i] == ' '){
             resetGame();
         }
     }
