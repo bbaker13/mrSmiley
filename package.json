@@ -4,7 +4,7 @@
     "description": "A simple game in a VSCode extension",
     "version": "0.0.3",
     "publisher": "bbaker13",
-    "icon":"https://github.com/bbaker13/mrSmiley/blob/master/photos/smilecon.jpg",
+    "icon":"photos/smilecon.jpg",
     "engines": {
         "vscode": "^1.17.0"
     },
