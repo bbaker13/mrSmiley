@@ -197,6 +197,7 @@ var xOffset = 1;
 var yOffset = 1;
 var _cols;
 var _rows;
+var _cLine;
 var _screen = [];
 var _gameStartTime;
 var _score;
@@ -230,7 +231,7 @@ var borders = [
 ];
 
 function handleInput(ed, doc) {
-    var _cLine = doc.lineCount - 1;
+    _cLine = doc.lineCount - 1;
     var _command = doc.lineAt(_cLine).text;
 
     var i=_command.length - 1;
@@ -324,6 +325,8 @@ function gameInit(ed)
 //Game loop
 function gameRender() {
 
+    resetCursor();
+
     if(_score > 0 && !_goal){
         _editor.edit(function(ed) {
             var gameTime = new Date() - _gameStartTime;
@@ -364,6 +367,13 @@ function gameRender() {
         
     }
 
+}
+
+function resetCursor() {
+    if(_cLine){
+        var pos = new vscode.Position(_cLine, 0);
+        _editor.selection = new vscode.Selection(pos, pos);
+    }
 }
 
 function baddyMove(baddy) {
