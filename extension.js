@@ -454,7 +454,7 @@ function screenRender(ed) {
                 str += ' ';
             //Player
             } else if(_screen[y][x] == 1) {
-                str += '☺';
+                str += '👻';
             //Wall
             } else if(_screen[y][x] == 2) {
                 str += '█';

@@ -44,4 +44,8 @@ Minor changes. The game now resets by pressing "space bar" after a game over/win
 
 Changed the game to reset the cursor to the bottom left so it's *slightly* more difficult to break in the case of a random click.
 
+### 0.0.5
+
+Changed Mr Smiley to a spooky ghost for Halloween. This might get left in for months due to laziness.
+
 **Enjoy!**
