@@ -2,7 +2,7 @@
     "name": "mrsmiley",
     "displayName": "MrSmiley",
     "description": "A simple game in a VSCode extension",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "bbaker13",
     "icon":"photos/smilecon.jpg",
     "engines": {

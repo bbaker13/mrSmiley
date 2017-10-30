@@ -48,4 +48,8 @@ Changed the game to reset the cursor to the bottom left so it's *slightly* more 
 
 Changed Mr Smiley to a spooky ghost for Halloween. This might get left in for months due to laziness.
 
+### 0.0.6
+
+Back to normal, because I broke everything.
+
 **Enjoy!**
